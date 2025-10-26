@@ -1,3 +1,25 @@
-# pokdexcli
-cli: command line interface
-We're going to build a Pokedex in a command-line REPL. We'll use the PokéAPI to power all of the data we'll need. If you're not familiar with Pokemon, or a Pokedex, that's okay! A Pokedex is just a make-believe device that lets us look up information about Pokemon - things like their name, type, and stats
+# Pokedex (Go + React)
+
+
+This project contains a Pokedex CLI (Go) with optional TUI and a small React frontend showing Pokémon cards.
+
+
+## Features
+- CLI REPL with commands: `map`, `mapb`, `explore`, `catch`, `inspect`, `pokedex`, `help`, `exit`
+- Disk cache for API responses
+- Persistent store saved to `.pokedex/store.json`
+- Optional Bubble Tea TUI for visual terminal interface
+- Optional Gin proxy for the Pokémon TCG API
+- React frontend to display card images (uses proxy if configured)
+
+
+## Run the CLI (Go)
+
+
+Requirements: Go 1.20+ (or your installed version)
+
+
+```bash
+# from project root
+cd cmd/pokedex-cli
+go run .
