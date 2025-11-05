@@ -1,25 +1,40 @@
-# Pokedex (Go + React)
+# pokdexcli
 
+Lightweight Pokedex: CLI + a small web frontend.
 
-This project contains a Pokedex CLI (Go) with optional TUI and a small React frontend showing Pokémon cards.
+This repository contains:
+- cmd/pokedex-cli — CLI that talks to PokeAPI (https://pokeapi.co).
+- web — a minimal Go web server + static frontend.
 
+Quickstart
 
-## Features
-- CLI REPL with commands: `map`, `mapb`, `explore`, `catch`, `inspect`, `pokedex`, `help`, `exit`
-- Disk cache for API responses
-- Persistent store saved to `.pokedex/store.json`
-- Optional Bubble Tea TUI for visual terminal interface
-- Optional Gin proxy for the Pokémon TCG API
-- React frontend to display card images (uses proxy if configured)
+1) CLI
+- Build and run the CLI:
+  go run ./cmd/pokedex-cli
 
+- Example usage in CLI:
+  map
+  explore 0
+  catch pikachu
+  pokedex
+  inspect pikachu
+  exit
 
-## Run the CLI (Go)
+The CLI persists caught pokemon to ./.pokedex/store.json.
 
+2) Web (static frontend + simple proxy)
+- Run the web server:
+  go run ./web/main.go
 
-Requirements: Go 1.20+ (or your installed version)
+- Open: http://localhost:8080
 
+What the web server does:
+- Serves files from web/static (index.html).
+- Proxies requests from /api/* to https://pokeapi.co/api/v2/* to avoid CORS issues from the browser.
 
-```bash
-# from project root
-cd cmd/pokedex-cli
-go run .
+Notes
+- The web frontend stores "caught" pokemon in the browser's localStorage (key: pokedex:caught). This keeps the server side minimal.
+- If you want server-side persistence for the web UI, we can extend the server to save into the existing CLI store file (./.pokedex/store.json) or add a tiny embedded DB.
+
+Branch and changes
+- I prepared these files on branch: fix/web-server
