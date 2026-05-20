@@ -1,0 +1,481 @@
+{
+  "caught": {
+    "barboach": {
+      "id": 339,
+      "name": "barboach",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png",
+      "stats": [
+        {
+          "name": "hp",
+          "base": 50
+        },
+        {
+          "name": "attack",
+          "base": 48
+        },
+        {
+          "name": "defense",
+          "base": 43
+        },
+        {
+          "name": "special-attack",
+          "base": 46
+        },
+        {
+          "name": "special-defense",
+          "base": 41
+        },
+        {
+          "name": "speed",
+          "base": 60
+        }
+      ]
+    },
+    "beautifly": {
+      "id": 267,
+      "name": "beautifly",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png",
+      "stats": [
+        {
+          "name": "hp",
+          "base": 60
+        },
+        {
+          "name": "attack",
+          "base": 70
+        },
+        {
+          "name": "defense",
+          "base": 50
+        },
+        {
+          "name": "special-attack",
+          "base": 100
+        },
+        {
+          "name": "special-defense",
+          "base": 50
+        },
+        {
+          "name": "speed",
+          "base": 65
+        }
+      ]
+    },
+    "buneary": {
+      "id": 427,
+      "name": "buneary",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png",
+      "stats": [
+        {
+          "name": "hp",
+          "base": 55
+        },
+        {
+          "name": "attack",
+          "base": 66
+        },
+        {
+          "name": "defense",
+          "base": 44
+        },
+        {
+          "name": "special-attack",
+          "base": 44
+        },
+        {
+          "name": "special-defense",
+          "base": 56
+        },
+        {
+          "name": "speed",
+          "base": 85
+        }
+      ]
+    },
+    "burmy": {
+      "id": 412,
+      "name": "burmy",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png",
+      "stats": [
+        {
+          "name": "hp",
+          "base": 40
+        },
+        {
+          "name": "attack",
+          "base": 29
+        },
+        {
+          "name": "defense",
+          "base": 45
+        },
+        {
+          "name": "special-attack",
+          "base": 29
+        },
+        {
+          "name": "special-defense",
+          "base": 45
+        },
+        {
+          "name": "speed",
+          "base": 36
+        }
+      ]
+    },
+    "cascoon": {
+      "id": 268,
+      "name": "cascoon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png",
+      "stats": [
+        {
+          "name": "hp",
+          "base": 50
+        },
+        {
+          "name": "attack",
+          "base": 35
+        },
+        {
+          "name": "defense",
+          "base": 55
+        },
+        {
+          "name": "special-attack",
+          "base": 25
+        },
+        {
+          "name": "special-defense",
+          "base": 25
+        },
+        {
+          "name": "speed",
+          "base": 15
+        }
+      ]
+    },
+    "cherubi": {
+      "id": 420,
+      "name": "cherubi",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png",
+      "stats": [
+        {
+          "name": "hp",
+          "base": 45
+        },
+        {
+          "name": "attack",
+          "base": 35
+        },
+        {
+          "name": "defense",
+          "base": 45
+        },
+        {
+          "name": "special-attack",
+          "base": 62
+        },
+        {
+          "name": "special-defense",
+          "base": 53
+        },
+        {
+          "name": "speed",
+          "base": 35
+        }
+      ]
+    },
+    "finneon": {
+      "id": 456,
+      "name": "finneon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png",
+      "stats": [
+        {
+          "name": "hp",
+          "base": 49
+        },
+        {
+          "name": "attack",
+          "base": 49
+        },
+        {
+          "name": "defense",
+          "base": 56
+        },
+        {
+          "name": "special-attack",
+          "base": 49
+        },
+        {
+          "name": "special-defense",
+          "base": 61
+        },
+        {
+          "name": "speed",
+          "base": 66
+        }
+      ]
+    },
+    "gyarados": {
+      "id": 130,
+      "name": "gyarados",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+      "stats": [
+        {
+          "name": "hp",
+          "base": 95
+        },
+        {
+          "name": "attack",
+          "base": 125
+        },
+        {
+          "name": "defense",
+          "base": 79
+        },
+        {
+          "name": "special-attack",
+          "base": 60
+        },
+        {
+          "name": "special-defense",
+          "base": 100
+        },
+        {
+          "name": "speed",
+          "base": 81
+        }
+      ]
+    },
+    "magikarp": {
+      "id": 129,
+      "name": "magikarp",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+      "stats": [
+        {
+          "name": "hp",
+          "base": 20
+        },
+        {
+          "name": "attack",
+          "base": 10
+        },
+        {
+          "name": "defense",
+          "base": 55
+        },
+        {
+          "name": "special-attack",
+          "base": 15
+        },
+        {
+          "name": "special-defense",
+          "base": 20
+        },
+        {
+          "name": "speed",
+          "base": 80
+        }
+      ]
+    },
+    "munchlax": {
+      "id": 446,
+      "name": "munchlax",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png",
+      "stats": [
+        {
+          "name": "hp",
+          "base": 135
+        },
+        {
+          "name": "attack",
+          "base": 85
+        },
+        {
+          "name": "defense",
+          "base": 40
+        },
+        {
+          "name": "special-attack",
+          "base": 40
+        },
+        {
+          "name": "special-defense",
+          "base": 85
+        },
+        {
+          "name": "speed",
+          "base": 5
+        }
+      ]
+    },
+    "shellos": {
+      "id": 422,
+      "name": "shellos",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png",
+      "stats": [
+        {
+          "name": "hp",
+          "base": 76
+        },
+        {
+          "name": "attack",
+          "base": 48
+        },
+        {
+          "name": "defense",
+          "base": 48
+        },
+        {
+          "name": "special-attack",
+          "base": 57
+        },
+        {
+          "name": "special-defense",
+          "base": 62
+        },
+        {
+          "name": "speed",
+          "base": 34
+        }
+      ]
+    },
+    "staryu": {
+      "id": 120,
+      "name": "staryu",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+      "stats": [
+        {
+          "name": "hp",
+          "base": 30
+        },
+        {
+          "name": "attack",
+          "base": 45
+        },
+        {
+          "name": "defense",
+          "base": 55
+        },
+        {
+          "name": "special-attack",
+          "base": 70
+        },
+        {
+          "name": "special-defense",
+          "base": 55
+        },
+        {
+          "name": "speed",
+          "base": 85
+        }
+      ]
+    },
+    "tentacool": {
+      "id": 72,
+      "name": "tentacool",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+      "stats": [
+        {
+          "name": "hp",
+          "base": 40
+        },
+        {
+          "name": "attack",
+          "base": 40
+        },
+        {
+          "name": "defense",
+          "base": 35
+        },
+        {
+          "name": "special-attack",
+          "base": 50
+        },
+        {
+          "name": "special-defense",
+          "base": 100
+        },
+        {
+          "name": "speed",
+          "base": 70
+        }
+      ]
+    },
+    "wingull": {
+      "id": 278,
+      "name": "wingull",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png",
+      "stats": [
+        {
+          "name": "hp",
+          "base": 40
+        },
+        {
+          "name": "attack",
+          "base": 30
+        },
+        {
+          "name": "defense",
+          "base": 30
+        },
+        {
+          "name": "special-attack",
+          "base": 55
+        },
+        {
+          "name": "special-defense",
+          "base": 30
+        },
+        {
+          "name": "speed",
+          "base": 85
+        }
+      ]
+    },
+    "wurmple": {
+      "id": 265,
+      "name": "wurmple",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png",
+      "stats": [
+        {
+          "name": "hp",
+          "base": 45
+        },
+        {
+          "name": "attack",
+          "base": 45
+        },
+        {
+          "name": "defense",
+          "base": 35
+        },
+        {
+          "name": "special-attack",
+          "base": 20
+        },
+        {
+          "name": "special-defense",
+          "base": 30
+        },
+        {
+          "name": "speed",
+          "base": 20
+        }
+      ]
+    }
+  },
+  "player": {
+    "level": 1,
+    "xp": 130,
+    "streak": 3,
+    "daily": {
+      "date": "2026-05-20",
+      "explores": 3,
+      "catches": 6,
+      "bonus_claimed": true,
+      "last_explore_at": "2026-05-20T22:22:48+01:00"
+    }
+  }
+}
